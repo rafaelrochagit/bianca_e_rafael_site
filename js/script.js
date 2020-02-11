@@ -338,11 +338,11 @@ $(document).ready(function() {
 	// 07. COUNTDOWN
 	//===================================================================================
 	var theday = new Date();
-	theday = new Date(2018, 11, 19);
-	$('#countdown').countdown({until: theday, format: 'WDHMS'});
+	theday = new Date(2020, 6, 14);
+	$('#countdown').countdown({until: theday, format: 'DHMS'});
 	$('#countdown').countdown($.countdown.regionalOptions['custom-label']); 
 		 
-	$('#date-countdown').countdown({until: theday, format: 'WDHMS'});
+	$('#date-countdown').countdown({until: theday, format: 'DHMS'});
 		 
 	// 08. MOBILE MENU
 	//==================================================================================
