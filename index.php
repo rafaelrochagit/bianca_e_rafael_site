@@ -90,16 +90,20 @@
             }
 
             #link-home-list a {
-                color: #242b52;
+                color: #fff;
                 font-weight: bold;
             }
 
             #link-home-list:hover a {
-              color: #fff;
+                color: #c5ccf0;
             }
 
             .heart-divider {
                 padding-top: 10px;
+            }
+
+            .slide-title-outter-wrapper {
+                background: #ffc10726;
             }
 
         </style>
@@ -271,8 +275,18 @@
                 <!-- MAIN SLIDER IMAGES -->     
                 <ul class="slides">  
                     <li>
+                          <!-- SLIDE IMAGE -->
+                        <div data-stellar-ratio="0.5" class="slide-image" 
+                            style="background-image:url(images/nossas/2227_edit.jpg);">
+                        </div>
+                    
+                        <!-- SLIDE OVERLAY -->
+                        <div class="slide-overlay" style="opacity:0.2"> </div>
+                    </li> 
+                    <li>
                         <!-- SLIDE IMAGE -->
-                        <div data-stellar-ratio="0.5" class="slide-image" style="background-image:url(images/slide-image-1920-d.jpg);">
+                        <div data-stellar-ratio="0.5" class="slide-image" 
+                            style="background-image:url(images/nossas/IMG_20170806_142129.jpg);">
                         </div>
                           
                         <!-- SLIDE OVERLAY -->
@@ -280,19 +294,50 @@
                     </li>    
                     <li>
                         <!-- SLIDE IMAGE -->
-                        <div data-stellar-ratio="0.5" class="slide-image" style="background-image:url(images/slide-image-1920-c.jpg);"></div>
+                        <div data-stellar-ratio="0.5" class="slide-image" 
+                            style="background-image:url(images/nossas/biblia.jpeg);"></div>
                               
                         <!-- SLIDE OVERLAY -->
                         <div class="slide-overlay" style="opacity:0.2"> </div>
                     </li>
                     <li>
                         <!-- SLIDE IMAGE -->
-                        <div data-stellar-ratio="0.5" class="slide-image" style="background-image:url(images/slide-image-1920-f.jpg);">
+                        <div data-stellar-ratio="0.5" class="slide-image" 
+                            style="background-image:url(images/nossas/1003.jpg);">
                         </div>
                     
                         <!-- SLIDE OVERLAY -->
                         <div class="slide-overlay" style="opacity:0.2"> </div>
                     </li>  
+                    <li>
+                        <!-- SLIDE IMAGE -->
+                        <div data-stellar-ratio="0.5" class="slide-image" 
+                            style="background-image:url(images/nossas/cristais1_edit.jpeg);">
+                        </div>
+                    
+                        <!-- SLIDE OVERLAY -->
+                        <div class="slide-overlay" style="opacity:0.2"> </div>
+                    </li>  
+                    <li>
+                        <!-- SLIDE IMAGE -->
+                        <div data-stellar-ratio="0.5" class="slide-image" 
+                            style="background-image:url(images/nossas/924.jpg);">
+                        </div>
+                    
+                        <!-- SLIDE OVERLAY -->
+                        <div class="slide-overlay" style="opacity:0.2"> </div>
+                    </li> 
+                    <li>
+                        <!-- SLIDE IMAGE -->
+                        <div data-stellar-ratio="0.5" class="slide-image" 
+                            style="background-image:url(images/nossas/2250_edit.jpg);">
+                        </div>
+                    
+                        <!-- SLIDE OVERLAY -->
+                        <div class="slide-overlay" style="opacity:0.2"> </div>
+                    </li> 
+
+                  
                 </ul><!-- END of MAIN SLIDER IMAGES -->                 
             </section><!-- ENF of MAIN SLIDER -->
             
