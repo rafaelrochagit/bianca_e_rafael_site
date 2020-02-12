@@ -13,7 +13,8 @@
           <link rel="stylesheet" href="css\bootstrap\bootstrap.min.css" type="text/css" media="screen">
         <!-- Pace -->
         <link rel="stylesheet" href="css\preloader.css" media="screen">
-        <link rel="stylesheet" href="css\preloader-default.css" media="screen">
+        <link rel="stylesheet" href="css\preloader-couple-name.css" media="screen">
+        
         <!-- Flexslider -->
         <link rel="stylesheet" href="css\flexslider\flexslider.css" type="text/css">
         <!-- Animate -->
@@ -31,11 +32,13 @@
         <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css' rel='stylesheet' type='text/css'>
           <!-- Slidebars -->
         <link rel="stylesheet" href="css\slidebars\slidebars.css" type="text/css" media="screen">
         
         <!-- Theme CSS -->
           <link href="css\style.css" rel="stylesheet" media="screen">
+          <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
         
         <!-- Skin CSS -->
           <!-- <link href="css/skin/light-teal/light-teal.css" rel="stylesheet" media="screen"> -->
@@ -59,6 +62,11 @@
             .css-logo {
               color: #FFF;
               background-color: #242b52;
+            }
+
+
+            .her-name {
+                color: #ffffff;
             }
 
             .pink-dot {
@@ -106,30 +114,61 @@
                 background: #ffc10726;
             }
 
+            a:hover .de-icon.circle, a:hover .de-icon.rounded, a:hover .de-icon.square {
+                background-color: #242b52;
+            }
+
         </style>
        
     </head>
 
     <body>
-        <!--PRELOADER-->
-        <div id="preloader">
-        
-            <div class="alignment">
-                <div class="v-align center-middle"> 
-                    
-                    <!-- LEFT HEART -->
-                    <div class="heart-animation">                   
-                        <i class="de-icon-heart"></i>
+
+        <audio id="demo" src="audio/voce-me-faz-tao-bem.mp3"></audio>
+        <div id="options-setting" class="move-right"> 
+            <div id="setting-button-wrapper">
+                <a id="music-button" href="#">
+                    <div class="de-icon square light small-size inline" style="border:1px solid #CCC;">
+                        <i class="de-icon-cancel-3"></i>
                     </div>
-                
-                    <!-- RIGHT HEART -->
-                    <div class="heart-animation-reverse">
-                        <i class="de-icon-heart"></i>
-                    </div>     
-                     
-                </div>
+                </a>
             </div>
-        </div> <!--END of PRELOADER-->
+             <div id="player">
+                  <h4>Tocar música do casal?</h4>
+                  <button onclick="document.getElementById('demo').play()" 
+                  class="btn btn-default control-music"> <i class="fa fa-play"> </i> Reproduzir</button>
+                  <button onclick="document.getElementById('demo').pause()" 
+                  class="btn btn-default control-music"> <i class="fa fa-pause"> </i> Pausar</button>
+            </div> 
+        </div>
+       
+
+
+        <!--PRELOADER-->
+        <div id="preloader" class="background_image" style="background-image:url(images/nossas/2227_edit.jpg)">
+                
+            <!-- BLACK OVERLAY -->
+            <div class="black-overlay">
+            </div>
+                  
+                <!-- COUPLE NAME -->
+            <div class="alignment">
+                <div class="v-align center-middle">
+                        
+                    <div class="spinner-animation">
+                          <i class="de-icon-heart-1 top-heart"></i>
+                      </div>
+                      <div class="his-name">
+                        BIANCA &amp;
+                      </div>
+                      <div class="her-name">
+                        RAFAEL
+                      </div>
+                       
+                          
+                    </div>
+            </div>  
+        </div><!--END of PRELOADER-->
         
         
         <!-- SIDE NAVBAR -->
@@ -435,6 +474,27 @@
         <!-- Custom Additional Script -->
         <script type="text/javascript" src="js\main-slider-fade.js"></script>
         <script type="text/javascript" src="js\side-navbar.js"></script>
+
+        <script type="text/javascript">
+                $("#music-button").click(function(e){
+                    e.preventDefault();
+                    if ($("#music-button i").hasClass("fa fa-music")){
+                        $("#options-setting").addClass("move-right");
+                        $("#music-button i").removeClass("fa fa-music");
+                        $("#music-button i").addClass("de-icon-cancel-3");
+                    }
+                    else
+                    {
+                        $("#options-setting").removeClass("move-right");
+                        $("#music-button i").removeClass("de-icon-cancel-3");
+                        $("#music-button i").addClass("fa fa-music");
+                    }
+                });
+
+                $('.control-music').click(function(){
+                    $('#music-button').click();
+                });
+        </script>
         
     </body>
 </html>
