@@ -123,6 +123,10 @@
                 margin-right: 10px;
             }
 
+            blockquote footer, blockquote small, blockquote .small {
+                font-size: 60%;
+            }
+
             @media(max-width: 769px) {
                 .carousel-inner {
                     min-height: 200px;
@@ -507,7 +511,7 @@
                                                     <div class="row">
                                                         <div class="col-sm-8 col-sm-offset-2">
 
-                                                            <p>O Amor é um ato de fé</p>
+                                                            <p>O Amor é um ato de fé.</p>
                                                             <small>Um amor para recordar</small>
                                                         </div>
                                                     </div>
