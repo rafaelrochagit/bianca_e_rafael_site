@@ -143,7 +143,6 @@
               background-color: #242b52;
             }
 
-
             .her-name {
                 color: #ffffff;
             }
@@ -205,6 +204,21 @@
                 background-color: #242b52;
             }
 
+             #hour {
+                padding-top: 10px;
+                font-size: 30px;
+            }
+
+            @media screen and (max-width: 991px)  { 
+                #save-the-date {
+                    padding-top: 70px;
+                }
+
+                #hour {
+                    font-size: 20px;
+                    padding-top: 8px;
+                }
+            }
         </style>
        
     </head>
@@ -370,7 +384,12 @@
 
                                             <div id="save">Bianca</div>
                                             <div id="the-date">& Rafael</div>
-                                            <div id="date">- 14<span class="pink-dot">.</span>06<span class="pink-dot">.</span>2020 -</div>
+                                            <div id="date">
+                                                - 14<span class="pink-dot">.</span>06<span class="pink-dot">.</span>2020 -
+                                            </div>
+                                            <div id="hour">
+                                                17h                                                
+                                            </div>
                                         </div>
 
                                         <div class="banner-text light medium" style="letter-spacing:3px">
