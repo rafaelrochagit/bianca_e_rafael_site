@@ -59,6 +59,81 @@
        
         <style>
 
+            /* Carousel */
+
+            #quote-carousel {
+                padding: 0 10px 0px 10px;
+                margin-top: 0px;
+                /* Control buttons  */
+                /* Previous button  */
+                /* Next button  */
+                /* Changes the position of the indicators */
+                /* Changes the color of the indicators */
+            }
+            #quote-carousel .carousel-control {
+                background: none;
+                color: #CACACA;
+                font-size: 2.3em;
+                text-shadow: none;
+                margin-top: 0px;
+            }
+            #quote-carousel .carousel-control.left {
+                left: -60px;
+            }
+            #quote-carousel .carousel-control.right {
+                right: -60px;
+            }
+            #quote-carousel .carousel-indicators {
+                right: 50%;
+                top: auto;
+                bottom: 0px;
+                margin-right: -19px;
+            }
+            #quote-carousel .carousel-indicators li {
+                width: 2px;
+                height: 2px;
+                margin: 5px;
+                cursor: pointer;
+                border: 4px solid #CCC;
+                border-radius: 50px;
+                opacity: 0.4;
+                overflow: hidden;
+                transition: all 0.4s;
+            }
+            #quote-carousel .carousel-indicators .active {
+                background: #333333;
+                width: 8px;
+                height: 8px;
+                border-radius: 100px;
+                border-color: #000;
+                opacity: 1;
+                overflow: hidden;
+            }
+            .carousel-inner {
+                min-height: 165px;
+            }
+            .item blockquote {
+                border-left: none;
+                margin: 0;
+            }
+            .item blockquote p:before {
+                content: "\f10d";
+                font-family: 'Fontawesome';
+                float: left;
+                margin-right: 10px;
+            }
+
+            @media(max-width: 769px) {
+                .carousel-inner {
+                    min-height: 200px;
+                }
+            }
+
+            #frases {
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+
             .css-logo {
               color: #FFF;
               background-color: #242b52;
@@ -75,6 +150,14 @@
 
             .pink-heart {
               color: #242b52;
+            }
+
+            .red-heart {
+                color: #f40808;
+                font-size: 20px;
+                margin-right: -20px;
+                position: relative;
+                z-index: 4;
             }
 
             #menu-icon.white a:hover i {
@@ -382,6 +465,65 @@
             
             <!--CONTENT SECTION-->
             <section id="content">
+                    <section id="frases">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12" data-wow-delay="0.2s">
+                                    
+                                    <div class="heart-divider">
+                                        <span class="grey-line"></span>
+                                        <i class="de-icon-heart red-heart"></i>
+                                        <i class="de-icon-heart pink-heart"></i>
+                                        <span class="grey-line"></span>
+                                    </div>
+
+                                    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                                        <!-- Bottom Carousel Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#quote-carousel" data-slide-to="0" class="active">
+                                            </li>
+                                            <li data-target="#quote-carousel" data-slide-to="1">
+                                            </li>
+                                        </ol>
+
+                                        <!-- Carousel Slides / Quotes -->
+                                        <div class="carousel-inner text-center">
+
+                                            <!-- Quote 1 -->
+                                            <div class="item active">
+                                                <blockquote>
+                                                    <div class="row">
+                                                        <div class="col-sm-8 col-sm-offset-2">
+
+                                                            <p>Quando penso em você, não posso deixar de sorrir, sabendo que você me completa.</p>
+                                                            <small>Querido John</small>
+                                                        </div>
+                                                    </div>
+                                                </blockquote>
+                                            </div>
+                                            <!-- Quote 2 -->
+                                            <div class="item">
+                                                <blockquote>
+                                                    <div class="row">
+                                                        <div class="col-sm-8 col-sm-offset-2">
+
+                                                            <p>O Amor é um ato de fé</p>
+                                                            <small>Um amor para recordar</small>
+                                                        </div>
+                                                    </div>
+                                                </blockquote>
+                                            </div>
+
+
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
             </section>
             
             <!-- FOOTER SECTION -->
