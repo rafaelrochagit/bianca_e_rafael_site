@@ -338,7 +338,8 @@ $(document).ready(function() {
 	// 07. COUNTDOWN
 	//===================================================================================
 	var theday = new Date();
-	theday = new Date(2020, 6, 14);
+	theday = new Date('2020-06-14 17:00:00');
+	
 	$('#countdown').countdown({until: theday, format: 'DHMS'});
 	$('#countdown').countdown($.countdown.regionalOptions['custom-label']); 
 		 
