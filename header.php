@@ -223,7 +223,7 @@
 
             @media (max-width: 500px) {
                 #main-slider {
-                    height: 150px !important;
+                    height: 1050px !important;
                 }  
 
                 .image-divider {
