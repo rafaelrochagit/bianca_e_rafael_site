@@ -220,5 +220,41 @@
                     padding-top: 8px;
                 }
             }
+
+            @media (max-width: 500px) {
+                #main-slider {
+                    height: 950px !important;
+                }  
+
+                .image-divider {
+                  height: 1250px !important;
+                }
+
+                .page-title {
+                  padding-top: 150px;
+                }
+
+            }  
+
+            @media (max-width: 380px) {
+              #main-slider {
+                  height: 1050px !important;
+              }  
+
+              .image-divider {
+                height: 1250px !important;
+              }
+
+            }
+
+            @media (max-width: 350px) {
+              #main-slider {
+                  height: 1150px !important;
+              }  
+
+              .image-divider {
+                height: 1500px !important;
+              }
+            }    
         </style> 
     </head>

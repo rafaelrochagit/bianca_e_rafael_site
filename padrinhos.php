@@ -16,6 +16,18 @@
       .photo-item img {
         margin-top: 30px;
       }
+
+      @media (max-width: 500px) {
+        .page-title {
+          padding-top: 70px;
+        }
+
+      }  
+
+      #menu-icon.white a i {
+          color: #333;
+          font-size: 24px;
+      }
     </style>
     
     <!-- SLIDEBAR CONTENT WRAPPER -->

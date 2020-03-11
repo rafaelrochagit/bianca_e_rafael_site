@@ -41,6 +41,23 @@
             margin-bottom: 5px;
           }
         }    
+
+        .divider-wrapper {
+            padding-bottom: 0px;
+        }
+
+        #lerMaisHistoria {
+            color: #fff; 
+            font-weight: bold;
+        }
+
+        #lerMaisHistoria:hover {
+            color:#242b52;
+        }
+
+        .image-divider {
+            height: 700px !important;
+        }
     </style>
     
     <body>
@@ -209,6 +226,7 @@
                 );
             ?>
 
+            <?php include_once('historiaContent.php')?>   
             <!--CONTENT SECTION-->
             <section id="content">
                     <div id="frases">
@@ -262,6 +280,59 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- PARALLAX  -->
+                    <div class="divider-wrapper">
+                        <div class="image-divider fixed-height" 
+                      style="background-image:url(images/nossas/bjo.jpg); 
+                      height:760px" data-stellar-background-ratio="0.5">
+                            <div class="divider-overlay" style="background:grey;opacity:0.7"></div>
+                        
+                            <!-- Use Center Middle Alignment to align middle the content for fixed-height parallax -->
+                            <div class="alignment"> 
+                                <div class="v-align center-middle">                     
+                                
+                                <!-- CONTAINER -->  
+                                    <div class="container">        
+                                                 
+                                  <!--TITLE & TEXT-->           
+                                        <div class="row">
+                                            <div class="col-md-offset-2 col-md-8">                                        
+                                                <div class="de-icon circle outline light large-size aligncenter animation fadeInUp">
+                                                  <i class="de-icon-heart"></i>
+                                                </div>
+                                                      
+                                                <h2 class="animation fadeInUp"><?= 'Nossa História' ?></h2>
+                                                              
+                                                <div class="heart-divider animation fadeInUp">
+                                                    <span class="white-line"></span>
+                                                    <i class="de-icon-heart pink-heart"></i>
+                                                    <i class="de-icon-heart white-heart"></i>
+                                                    <span class="white-line"></span>
+                                                </div>    
+                                                              
+                                                <p class="animation delay1 fadeInUp">
+                                                    <?= mb_strimwidth($comoSeConheceram['text'], 0, 500, "...")?> 
+                                                </p>
+                                 
+                                            </div>
+                                        </div>
+
+                                        <div class="row delay1 animation fadeInDown" style="margin-top: 30px;">
+                                            <a id="lerMaisHistoria" href="nossa-historia.php" >
+                                                Ler história completa
+                                            </a>
+                                        </div>
+                                  <!-- END of TITLE & TEXT--> 
+                                        
+                                    </div> 
+                                <!-- END of CONTAINER -->
+                             
+                                </div>
+                            </div><!-- END of Center Middle Alignment -->
+                            
+                      </div>
+                    </div><!-- END of PARALLAX -->
 
                     <?php include_once('localizacao.php') ?> 
             </section>
