@@ -122,7 +122,7 @@
             <div class="divider-wrapper">
             	<div class="image-divider fixed-height" 
               style="background-image:url(images/nossas/bjo.jpg); 
-              height:760px" data-stellar-background-ratio="0.5">
+              height:840px" data-stellar-background-ratio="0.5">
                 	<div class="divider-overlay" style="background:grey;opacity:0.7"></div>
                 
                     <!-- Use Center Middle Alignment to align middle the content for fixed-height parallax -->

@@ -227,7 +227,7 @@
                 }  
 
                 .image-divider {
-                  height: 1250px !important;
+                  height: 1350px !important;
                 }
 
                 .page-title {
@@ -242,7 +242,7 @@
               }  
 
               .image-divider {
-                height: 1250px !important;
+                height: 1350px !important;
               }
 
             }
@@ -253,7 +253,7 @@
               }  
 
               .image-divider {
-                height: 1500px !important;
+                height: 1600px !important;
               }
             }    
         </style> 
