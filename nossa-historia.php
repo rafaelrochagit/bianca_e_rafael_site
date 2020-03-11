@@ -39,8 +39,47 @@
           testemunhar o nosso SIM, a segunda decisão mais importante das nossas vidas,
           após Cristo.';
       ?>    
+
+       <style>
+        @media (max-width: 500px) {
+          #main-slider {
+              height: 950px !important;
+          }  
+
+          .image-divider {
+            height: 1250px !important;
+          }
+
+          .page-title {
+            padding-top: 150px;
+          }
+
+        }  
+
+         @media (max-width: 380px) {
+          #main-slider {
+              height: 1050px !important;
+          }  
+
+          .image-divider {
+            height: 1250px !important;
+          }
+
+        }
+
+       @media (max-width: 350px) {
+          #main-slider {
+              height: 1150px !important;
+          }  
+
+          .image-divider {
+            height: 1500px !important;
+          }
+
+        }    
+    </style>
      	<!-- MAIN SLIDER -->
-    	<section id="main-slider" class="fixed-height" style="height:700px">      	
+    	<section id="main-slider" class="" style="height:700px">      	
           <!-- MAIN SLIDER TITLE OUTTER WRAPPER -->
         	<div class="slide-title-outter-wrapper">
             	
