@@ -101,6 +101,7 @@
                               ['img' => 'vinicius-e-taiana.jpeg', 'nome' => 'Vinícius e Taiana'],
                               ['img' => 'jessica.jpeg', 'nome' => 'Jéssica'],
                               ['img' => 'fernanda.jpeg', 'nome' => 'Fernanda'],
+                              ['img' => 'jonathas.jpeg', 'nome' => 'Jonathas'],
                             );
 
                            shuffle($padrinhos);
