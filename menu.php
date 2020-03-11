@@ -11,5 +11,8 @@
         <li>
             <a href="padrinhos.php" >PADRINHOS & MADRINHAS</a>
         </li>
+        <li>
+            <a href="index.php#localizacao">LOCALIZAÇÃO</a>
+        </li>
         
     </ul>  
