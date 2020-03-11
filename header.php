@@ -223,7 +223,7 @@
 
             @media (max-width: 500px) {
                 #main-slider {
-                    height: 950px !important;
+                    height: 150px !important;
                 }  
 
                 .image-divider {
@@ -238,7 +238,7 @@
 
             @media (max-width: 380px) {
               #main-slider {
-                  height: 1050px !important;
+                  height: 1150px !important;
               }  
 
               .image-divider {
@@ -249,7 +249,7 @@
 
             @media (max-width: 350px) {
               #main-slider {
-                  height: 1150px !important;
+                  height: 1250px !important;
               }  
 
               .image-divider {
