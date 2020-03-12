@@ -190,7 +190,17 @@
                   	<div class="col-md-12 text-center animation fadeIn">
                       	<p>
                           <?=$casamento['text']?>
-  						          </p>                        
+  						          </p>     
+                        <p>
+                          <?=$casamento['text1']?>
+                        </p>
+                        <p>
+                          <b><?=$casamento['text2']?></b>
+                        </p>
+                        <p>
+                          <?=$casamento['text3']?><br>
+                          <b><?=$casamento['text4']?></b>
+                        </p>                            
                     </div>
                 	</div>
                   
