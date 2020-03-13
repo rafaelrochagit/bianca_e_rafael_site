@@ -63,7 +63,7 @@
                        “Em todo o tempo ama o amigo e para a hora da angústia nasce o irmão.” <br> Pv 17:17
                       </p>
                       <p>
-                        Todos os nossos padrinhos e madrinhas são importantes para nós, logo eles não estão apresentados aqui por ordem de importância ou qualquer coisa do tipo, pelo contrário toda vez que você atualizar essa página a ordem das fotos irá se modificar aleatoriamente, aparte F5 e comprove &#128514; &#128514; &#128514;.
+                        Todos os nossos padrinhos e madrinhas são importantes para nós, logo, eles não estão apresentados aqui por ordem de importância ou qualquer coisa do tipo, pelo contrário, toda vez que você atualizar essa página a ordem das fotos são modificadas aleatoriamente, aparte F5 e comprove &#128514; &#128514; &#128514;.
                       </p>
                     </div>
                     
